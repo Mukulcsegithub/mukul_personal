@@ -1,0 +1,149 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+  }
+  .menu_bar
+  {
+    background: #1a4d80;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+  }
+  .menu_bar ul
+  {
+    float: right;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+  }
+  .menu_bar img
+  {
+    float: left;
+    display: inline-flex;
+    list-style: none;
+    width:200px;
+    /* margin: 10px; */
+    padding: 10px;
+  }
+  .menu_bar ul li
+  {
+    width:120px;
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  .menu_bar ul li a
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .active, .menu_bar ul li:hover 
+  {
+    background-color: #202f60;
+    border-radius: 3px;
+  }
+  .menu_bar.ticket-tag-menu {
+    background: transparent;
+    box-shadow: 0px 0px 5px #0000001f;
+    padding: 0px 10px;
+  }
+  .box.ticket-tag-box{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px #0000001a;
+    padding: 20px;
+    max-width: 600px;
+  }
+  .ticket-tag-box .form-group {
+    FLOAT: LEFT;
+    width: 50%;
+    padding: 10px;
+  }
+  .box.ticket-tag-box .btn-success {
+    clear: both;
+    text-align: center;
+    margin: auto;
+    display: table;
+    padding: 8px 19px;
+    background: #202f60;
+    border: transparent;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #delete_inactive_client_wrapper .form-control {
+    height: 50px;
+    border: 1px solid #ddd;
+  }
+  #delete_inactive_client_wrapper label {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  #delete_inactive_client th.sorting {
+    border-radius: 0 !important;
+    background-color: #f3f3f3;
+    color: #000;
+    padding: 14px 20px;
+    border: transparent;
+  }
+  #delete_inactive_client {
+    box-shadow: 0px 0px 10px #00000012;
+    margin: 20px 0px !important;
+    float: left;
+    width: 100%;
+  }
+  .edit-popup .modal-header {
+    background: #efecec;
+    border-top-right-radius: 5PX;
+    border-top-left-radius: 5px;
+    display: flex;
+  }
+  .edit-popup h4.modal-title {
+    color: #000;
+    font-weight: 700;
+  }
+  button:focus{
+    outline: none !important;
+  }
+  .edit-popup .btn.btn-default {
+    background: #000;
+    color: #fff;
+  }
+  .edit-popup #updateBtn {
+    background: #202f60;
+    border: transparent;
+  }
+  .box.ticket-tag-box label {
+    display: block;
+}
+.box.ticket-tag-box #pay_to_tax {
+    width: 100%;
+    /* resize: none; */
+    min-height: 50px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.box.ticket-tag-box select{
+    height:45px;
+}
+.box.ticket-tag-box .form-group {
+    width: 100%;
+}
+.error {
+  color: #ff0000;
+}
+h5#exampleModalLabel {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.modal-header .close {
+
+margin-top: -2px;
+margin-left: auto;
+
+}
